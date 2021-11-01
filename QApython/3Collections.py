@@ -1,6 +1,10 @@
 # dictionary composed of books and their respective authors
 
 books = {'1984':'George Orwell', 'Brave New World':'Aldous Huxley'}
+print(set(list(books.keys()))) # can be turned into a tuple/list/set
+
+bookskeyslist = list(books.keys())
+print(bookskeyslist)
 
 # querying author of 1984, using keys only for dicts
 
