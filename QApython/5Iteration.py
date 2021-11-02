@@ -9,8 +9,8 @@ while count < 5:
 
 for i in range(5, 11):
     print(i)
-
-# exercise branch (to be branched)
+    
+# exercise branch
 
 for i in range(5): #asks for 5 names and prints them out with awesome following it 
     name = input("What is your name? ")
