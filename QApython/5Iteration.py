@@ -9,4 +9,12 @@ while count < 5:
 
 for i in range(5, 11):
     print(i)
+    
+# exercise branch
 
+for i in range(5): #asks for 5 names and prints them out with awesome following it 
+    name = input("What is your name? ")
+    print(name, "is awesome!")
+
+for i in range (10, 21, 2): # prints out even numbers from 10 to 20
+    print(i)
