@@ -34,3 +34,4 @@ def onecharremove(string1, string2):
 x = input("First string: ")
 y = input("Second string: ")
 z = print(onecharremove(x, y))
+

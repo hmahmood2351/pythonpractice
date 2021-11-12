@@ -21,7 +21,7 @@
 # 978-0-306-40615-7
 
 # isbn = '978-0-306-40615-?'
-isbn = '978186197271'
+isbn = '978030640615'
 sumlist = []
 
 def cleanisbnlist(list):
@@ -42,7 +42,7 @@ for index, number in enumerate(cleanisbnlist(isbn), start=0):
 
 print(10-(sum(sumlist)%10))
 
-
+#[5,7,5,4]
 
 #978030640615
 
