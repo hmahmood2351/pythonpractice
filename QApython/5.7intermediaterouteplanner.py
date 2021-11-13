@@ -46,8 +46,17 @@ print("The rest/from three quarters to end is: ", restlist)
 
 if lengthpeaks < 4:
     print("Less than 4 length code executed")
+    # previousnumber = peaks[0] 
 
+    # for index, i in enumerate(peaks):
+    #     if index == 0:
+    #         continue
+    #     if i < previousnumber:
+    #         peaks.pop(i)
+    #     previousnumber = peaks[index]
 
+    #TBD, just iterating through the lesser than 4 list, and removing numbers that are bigger than the previus one
+    #sometimes its not a programming problem, but trying to understand the process problem
 
 
 else:
