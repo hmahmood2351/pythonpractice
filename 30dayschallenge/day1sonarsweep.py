@@ -59,9 +59,6 @@
 
 # How many measurements are larger than the previous measurement?
 
-from types import prepare_class
-
-
 file = open(r'C:\Users\lab\Desktop\testgit\pythonpractice\30dayschallenge\day1input.txt')
 lines = file.read()
 y = lines.split(sep='\n')
