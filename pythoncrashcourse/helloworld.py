@@ -42,3 +42,11 @@ print(tuple1)
 
 if my_foods:
     print("Not empty")
+
+currentusers = ['A','B','C','D','E']
+new_users = ['F','A','H','I','J']
+for i in new_users:
+    if i in currentusers:
+        print("username in use")
+    else:
+        print("username is available")
